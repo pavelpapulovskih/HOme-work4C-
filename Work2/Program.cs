@@ -1,4 +1,12 @@
-﻿int Prompt(string messege)
+﻿// Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+
+// 452 -> 11
+
+// 82 -> 10
+
+// 9012 -> 12
+
+int Prompt(string messege)
 {
     System.Console.Write(messege);
     string readInput = System.Console.ReadLine();
